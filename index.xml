@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>My New Hugo Site</title>
+    <title>Toyozaki Tomihiro</title>
     <link>http://toyozaki.me/index.xml</link>
-    <description>Recent content on My New Hugo Site</description>
+    <description>Recent content on Toyozaki Tomihiro</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja</language>
-    <copyright>Toyozaki All rights reserved.</copyright>
+    <copyright>rakuishi All rights reserved.</copyright>
     <atom:link href="http://toyozaki.me/index.xml" rel="self" type="application/rss+xml" />
     
   </channel>
