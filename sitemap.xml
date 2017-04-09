@@ -1,9 +1,71 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
-  <url>
-    <loc>http://toyozaki.me/</loc>
-    <priority>0</priority>
-  </url>
+    
+    
+    <url>
+      <loc>http://toyozaki.me/project/H.265:HEVC&#43;Deep-Learning/</loc>
+      <lastmod>2017-04-09T16:32:20+09:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+      <loc>http://toyozaki.me/post/my-first-article/</loc>
+      <lastmod>2017-04-09T15:54:39+09:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+      <loc>http://toyozaki.me/tags/academic/</loc>
+      <lastmod>2017-01-01T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+      <loc>http://toyozaki.me/post/</loc>
+      <lastmod>2017-01-01T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+      <loc>http://toyozaki.me/tags/deep-learning/</loc>
+      <lastmod>2017-04-09T16:32:20+09:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    
+    <url>
+      <loc>http://toyozaki.me/project/</loc>
+      <lastmod>2017-04-09T16:32:20+09:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    
+    <url>
+      <loc>http://toyozaki.me/tags/</loc>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    
+    <url>
+      <loc>http://toyozaki.me/</loc>
+      <lastmod>2016-04-20T00:00:00+00:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
   
 </urlset>

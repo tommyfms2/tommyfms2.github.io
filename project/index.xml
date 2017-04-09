@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Toyozaki Xaver Tomihiro on Toyozaki Xaver Tomihiro</title>
-    <link>http://toyozaki.me/index.xml</link>
-    <description>Recent content in Toyozaki Xaver Tomihiro on Toyozaki Xaver Tomihiro</description>
+    <title>Projects on Toyozaki Xaver Tomihiro</title>
+    <link>http://toyozaki.me/project/index.xml</link>
+    <description>Recent content in Projects on Toyozaki Xaver Tomihiro</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2017 Toyozaki Xaver Tomihiro [All right reserved.]</copyright>
-    <lastBuildDate>Wed, 20 Apr 2016 00:00:00 +0000</lastBuildDate>
-    <atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 09 Apr 2017 16:32:20 +0900</lastBuildDate>
+    <atom:link href="/project/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>H.265/HEVC &#43; Deep Learning</title>
@@ -32,21 +32,6 @@
 結果として，CNNを利用するイントラ予測モード決定はランダムに決定する手法と比較し，有意性があることを確かめた．
 また、隣接画素を含んだ手法は含んでいない手法より符号化効率が高いことがわかった．&lt;/p&gt;
 </description>
-    </item>
-    
-    <item>
-      <title>ホームページを作成しました。</title>
-      <link>http://toyozaki.me/post/my-first-article/</link>
-      <pubDate>Sun, 09 Apr 2017 15:54:39 +0900</pubDate>
-      
-      <guid>http://toyozaki.me/post/my-first-article/</guid>
-      <description>&lt;p&gt;
-2017年3月に明治大学 総合数理学部 先端メディアサイエンス学科を卒業し、
-2017年4月に明治大学大学院 先端数理科学研究科 先端メディアサイエンス専攻に進学しました。
-学部では動画像符号化や画像処理の研究を行っていましたが、大学院では渡邊研究室に所属し、インタラクションの研究をしていくことになります。
-そして今後は様々な作品や研究に携わることができればと思います。&lt;/p&gt;
-
-&lt;p&gt;このホームページでもプロジェクトやポートフォリオをまとめていくサイトにするつもりです。&lt;/p&gt;</description>
     </item>
     
   </channel>
