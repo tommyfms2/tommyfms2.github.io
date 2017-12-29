@@ -35,11 +35,11 @@
   <link rel="icon" type="image/png" href="/img/icon.png">
   <link rel="apple-touch-icon" type="image/png" href="/img/apple-touch-icon.png">
 
-  <link rel="canonical" href="http://toyozaki.me/project/H.265:HEVC&#43;Deep-Learning/">
+  <link rel="canonical" href="http://toyozaki.me/project/AmbientLetter/">
 
   
 
-  <title>H.265/HEVC &#43; Deep Learning | Toyozaki Xaver Tomihiro</title>
+  <title>AmbientLetter | Toyozaki Xaver Tomihiro</title>
 
 </head>
 <body id="top" data-spy="scroll" data-target="#navbar-main" data-offset="71">
@@ -124,7 +124,7 @@
 
   
   <div class="article-header">
-    <img src="/img//project_2017-04-09/network-header.png" class="article-banner" itemprop="image">
+    <img src="/img//project_2017-12-29/DSC08717-header.JPG" class="article-banner" itemprop="image">
     
   </div>
   
@@ -132,7 +132,7 @@
   <div class="article-container">
 
     <div class="pub-title">
-      <h1 itemprop="name">H.265/HEVC &#43; Deep Learning</h1>
+      <h1 itemprop="name">AmbientLetter</h1>
       <span class="pub-authors" itemprop="author">&nbsp;</span>
       <span class="pull-right">
         
@@ -140,35 +140,35 @@
   <ul class="share">
     <li>
       <a class="facebook"
-         href="https://www.facebook.com/sharer.php?u=http%3a%2f%2ftoyozaki.me%2fproject%2fH.265%3aHEVC%2bDeep-Learning%2f"
+         href="https://www.facebook.com/sharer.php?u=http%3a%2f%2ftoyozaki.me%2fproject%2fAmbientLetter%2f"
          target="_blank">
         <i class="fa fa-facebook"></i>
       </a>
     </li>
     <li>
       <a class="twitter"
-         href="https://twitter.com/intent/tweet?text=H.265%2fHEVC%20%2b%20Deep%20Learning&amp;url=http%3a%2f%2ftoyozaki.me%2fproject%2fH.265%3aHEVC%2bDeep-Learning%2f"
+         href="https://twitter.com/intent/tweet?text=AmbientLetter&amp;url=http%3a%2f%2ftoyozaki.me%2fproject%2fAmbientLetter%2f"
          target="_blank">
         <i class="fa fa-twitter"></i>
       </a>
     </li>
     <li>
       <a class="linkedin"
-         href="https://www.linkedin.com/shareArticle?mini=true&amp;url=http%3a%2f%2ftoyozaki.me%2fproject%2fH.265%3aHEVC%2bDeep-Learning%2f&amp;title=H.265%2fHEVC%20%2b%20Deep%20Learning"
+         href="https://www.linkedin.com/shareArticle?mini=true&amp;url=http%3a%2f%2ftoyozaki.me%2fproject%2fAmbientLetter%2f&amp;title=AmbientLetter"
          target="_blank">
         <i class="fa fa-linkedin"></i>
       </a>
     </li>
     <li>
       <a class="weibo"
-         href="http://service.weibo.com/share/share.php?url=http%3a%2f%2ftoyozaki.me%2fproject%2fH.265%3aHEVC%2bDeep-Learning%2f&amp;title=H.265%2fHEVC%20%2b%20Deep%20Learning"
+         href="http://service.weibo.com/share/share.php?url=http%3a%2f%2ftoyozaki.me%2fproject%2fAmbientLetter%2f&amp;title=AmbientLetter"
          target="_blank">
         <i class="fa fa-weibo"></i>
       </a>
     </li>
     <li>
       <a class="email"
-         href="mailto:?subject=H.265%2fHEVC%20%2b%20Deep%20Learning&amp;body=http%3a%2f%2ftoyozaki.me%2fproject%2fH.265%3aHEVC%2bDeep-Learning%2f">
+         href="mailto:?subject=AmbientLetter&amp;body=http%3a%2f%2ftoyozaki.me%2fproject%2fAmbientLetter%2f">
         <i class="fa fa-envelope"></i>
       </a>
     </li>
@@ -184,25 +184,69 @@
     <div class="article-style" itemprop="articleBody">
       
 
-<h3 id="深層学習を用いたhevcイントラ予測モード決定手法の検討">深層学習を用いたHEVCイントラ予測モード決定手法の検討</h3>
+<h3 id="ambientletter-わからないスペルをこっそり知るための文字認識及び文字提示手法">AmbientLetter：わからないスペルをこっそり知るための文字認識及び文字提示手法</h3>
 
-<p>という題目で電子情報通信学会の総合大会2017（名城大学）で<a href="http://www.gakkai-web.net/gakkai/ieice/G_2017/Settings/ab/d_11_056.html" target="_blank">発表</a>してきました。
-同時に卒業研究でもあります。</p>
+<p>という題目で、インタラクティブシステムとソフトウェアに関するワークショップ（WISS）でデモ発表をしました。<br />
+  　</p>
 
 <h2 id="abstract">Abstract</h2>
 
-<p>動画像符号化規格HEVC/H.265の参照ソフトウェアHEVC Test Modelでは，RD最適化を行うことで最適な予測モードを決定している．しかし，RD最適化は計算量が多くエンコードには時間がかかる．
-そこで，35モードあるイントラ予測モード決定に深層学習を用いることを検討した。
-本稿では，CNNの入力に当該PUのみを使用する手法，当該PUと隣接画素を入力とした手法，予測モードをランダムに決定した手法においてBD-Rateによる比較を行った．
-結果として，CNNを利用するイントラ予測モード決定はランダムに決定する手法と比較し，有意性があることを確かめた．
-また、隣接画素を含んだ手法は含んでいない手法より符号化効率が高いことがわかった．</p>
+<p>コンピュータ上では入力した文字のスペルミスの指摘や修正が可能である．しかし，会議や
+講義などの場面で鉛筆やチョーク等を利用する場合にはそのような機能を利用できない．そこで，本
+研究では，直筆が必要な場面において，忘れてしまったスペルをシームレスにこっそりとユーザ本人
+にのみ提示するシステムである AmbientLetter を提案する．本システムはペンに装着した 9 軸加速度
+センサを用いた文字認識部，執筆内容から次の文字を予測する提示文字予測部，環境にカモフラージ
+ュし次の文字を提示する文字提示部の 3 つの要素で構成される．文字認識部のシステム評価の結果，
+86.5%で筆記された文字を正しく認識できた．</p>
 
     </div>
     
     
+    <div class="row">
+      <div class="col-sm-1"></div>
+      <div class="col-sm-10">
+        <div class="row">
+          <div class="col-xs-12 col-sm-3 pub-row-heading"><b>Publication</b></div>
+          <div class="col-xs-12 col-sm-9">25th Workshop on Interactive Systems and Software (WISS 2017)</div>
+        </div>
+      </div>
+      <div class="col-sm-1"></div>
+    </div>
+    <div class="visible-xs space-below"></div>
     
     
     
+    <div class="row">
+      <div class="col-sm-1"></div>
+      <div class="col-sm-10">
+        <div class="row">
+          <div class="col-xs-12 col-sm-3 pub-row-heading"><b>Date</b></div>
+          <div class="col-xs-12 col-sm-9" itemprop="datePublished">
+            2017-12-06
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-1"></div>
+    </div>
+    <div class="visible-xs space-below"></div>
+    
+    
+    
+    <div class="row" style="padding-top: 10px">
+      <div class="col-sm-1"></div>
+      <div class="col-sm-10">
+        <div class="row">
+          <div class="col-xs-12 col-sm-3 pub-row-heading" style="line-height:34px;"><b>Links</b></div>
+          <div class="col-xs-12 col-sm-9">
+            
+            <a class="btn btn-primary btn-outline" target="_blank" href="http://www.wiss.org/WISS2017Proceedings/demo/1-A19.pdf">pdf</a>
+            
+
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-1"></div>
+    </div>
     
 
 </article>

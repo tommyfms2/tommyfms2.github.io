@@ -23,7 +23,7 @@
 html {
   font-family: 'YuGothic', 'Yu Gothic','Merriweather', serif;
   font-size: 16px;
-  color: rgba(0,0,0,0.8);
+  color: rgba(0,0,20,0.8);
   line-height: 1.65;
 }
 @media screen and (min-width: 58em) {
@@ -37,6 +37,7 @@ body {
   font-size: 0.95rem;
   line-height: inherit;
   color: inherit;
+  background-color: #fafafc;
   margin-top: 71px; /* Offset body content by navbar height. */
   padding-top: 0;
   counter-reset: captions;
@@ -204,7 +205,7 @@ blockquote p:last-child {
 }
 
 .home-section {
-  background-color: #fdfdfd;
+  /*background-color: #fafafc;*/
   padding: 30px 0 30px 0;
   animation: intro 0.1s both;
   animation-delay: 0.1s;
@@ -215,7 +216,7 @@ blockquote p:last-child {
 }
 
 .home-section:nth-of-type(even) {
-  background-color: #fdfdfd;
+  /*background-color: #fafafc;*/
 }
 
 @media screen and (max-width: 768px) {
@@ -253,7 +254,7 @@ blockquote p:last-child {
   width: 200px;
   height: 200px;
   margin: 0 auto;
-  border-radius: 50%;
+  border-radius:50%;
   background-size: cover;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -293,6 +294,19 @@ blockquote p:last-child {
 #profile .social-icon li:hover {
   transform: scale(1.2)
 }
+
+ul.social-icon li a,
+ul.social-icon li a:hover {
+  color: #6f6f6f;
+  text-decoration: none;
+  transition: color 0.6s ease;
+}
+
+ul.social-icon li a:hover,
+ul.social-icon li a:focus {
+  color: #005181;
+}
+
 
 .big-icon {
   font-size: 2rem;
@@ -343,7 +357,7 @@ ul.share {
 
 ul.share li {
   display: inline-flex;
-  margin-right: 5px;
+  margin-right: 2px;
 }
 
 ul.share li:last-of-type {
@@ -362,15 +376,17 @@ ul.share li .fa {
 }
 
 ul.share li a {
-  background-color: #b5c6ce;
+  background-color: #ccc;
   display: block;
-  border-radius: 50%;
+  border-radius: 25%;
   text-decoration: none !important;
   margin: 0;
 }
 
 ul.share li:hover .fa {
-  transform: scale(1.4)
+  border-radius: 25%;
+  background-color: #aaa;
+  transform: scale(1.3);
 }
 
 /*************************************************
@@ -551,14 +567,6 @@ article {
   overflow: hidden;
 }
 
-/*************************************************
- * Talks
- **************************************************/
-
-.talk-event {
-  color: #090;
-  font-size: 1rem;
-}
 
 /*************************************************
  *  Projects
@@ -734,7 +742,7 @@ footer {
   /*margin: 4rem 0 0;*/
   padding: 4rem 0 1rem 0;
   width: 100%;
-  background-color: #fdfdfd;
+  /*background-color: #fdfdfd;*/
 }
 
 footer p {
@@ -754,8 +762,9 @@ footer a#back_to_top i {
 .btn-primary {
   /*border-color: #0095eb;
   background: #0095eb;*/
-  border-color: #aaa;
-  background: #aaa;
+  /*border-color: #fff;*/
+  background: #eee;
+  color: inherit;
 }
 
 .btn-primary:hover,
@@ -764,7 +773,7 @@ footer a#back_to_top i {
 .btn-primary.active,
 .open > .dropdown-toggle.btn-primary {
   /*background: #0095eb;*/
-  background: #555;
+  background: #aaa;
   /*border-radius: 0px 50px 20px 20px;*/
 }
 
@@ -774,28 +783,28 @@ footer a#back_to_top i {
 
 .btn-toolbar .btn {
   font-size: 0.9rem;
-  padding: 7px 14px 6px;
+  padding: 7px 30px 6px;
+  margin-right: 4px;
   border: none;
 }
 
 .btn-toolbar .btn:first-child {
-  border-radius: 5px 0 0 5px;
+  border-radius: 3px 0 0 3px;
 }
 
 .btn-toolbar .btn:last-child {
-  border-radius: 0 5px 5px 0;
+  border-radius: 0 3px 3px 0;
 }
 
 .btn-toolbar .btn.btn-primary:hover,
 .btn-toolbar .btn.btn-primary:focus {
-  /*background-color: rgba(0,149,235,0.6);*/
-  background-color: rgba(50,50,50,0.6);
+  background: #aaa;
 }
 
 .btn-toolbar .btn.btn-primary:active,
 .btn-toolbar .btn.btn-primary.active {
-  /*background-color: rgba(0,89,175,1);*/
-  background-color: rgba(100,100,100,1);
+  background: #003668;
+  border-bottom: 2px solid #000;
 }
 
 /*************************************************
@@ -805,7 +814,7 @@ footer a#back_to_top i {
 .btn-outline {
   background-color: transparent;
   color: inherit;
-  transition: all .5s;
+  transition: all .2s;
 }
 
 .btn-primary.btn-outline {
@@ -835,6 +844,7 @@ footer a#back_to_top i {
 .btn-warning.btn-outline:hover,
 .btn-danger.btn-outline:hover {
   color: #fff;
+  border: 1px solid #aaa;
 }
 
 /*************************************************
