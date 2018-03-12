@@ -7,8 +7,49 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2017 Toyozaki Xaver Tomihiro [All right reserved.]</copyright>
-    <lastBuildDate>Fri, 29 Dec 2017 17:00:09 +0900</lastBuildDate>
+    <lastBuildDate>Mon, 12 Mar 2018 23:31:46 +0900</lastBuildDate>
     <atom:link href="/project/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>研究室共同研究制作展ウェブデザイン</title>
+      <link>http://toyozaki.me/project/exhibition-page/</link>
+      <pubDate>Mon, 12 Mar 2018 23:31:46 +0900</pubDate>
+      
+      <guid>http://toyozaki.me/project/exhibition-page/</guid>
+      <description>
+
+&lt;h3 id=&#34;keita-lab-exhibition&#34;&gt;Keita-lab Exhibition.&lt;/h3&gt;
+
+&lt;p&gt;2018.3.15-2018.3.17にかけて研究室の展示会があり、その &lt;a href=&#39;http://keita-lab.jp/exhibition/&#39; target=&#39;_brank&#39;&gt;ウェブサイト&lt;/a&gt; のデザインを担当しました。&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Kindle のハイライトを自動で Scrapbox にまとめる</title>
+      <link>http://toyozaki.me/project/kindleHL2scb/</link>
+      <pubDate>Mon, 12 Mar 2018 23:18:25 +0900</pubDate>
+      
+      <guid>http://toyozaki.me/project/kindleHL2scb/</guid>
+      <description>
+
+&lt;h3 id=&#34;kindleのメモ使ってますか&#34;&gt;Kindleのメモ使ってますか&lt;/h3&gt;
+
+&lt;p&gt;　&lt;br /&gt;
+便利ですよね。&lt;br /&gt;
+でもメモしたもの簡単に見づらいですよね。&lt;/p&gt;
+
+&lt;p&gt;あと、メモしたことに関して思ったこと書いたりしたいですよね。
+　&lt;br /&gt;
+　&lt;/p&gt;
+
+&lt;h3 id=&#34;自動でkindleのハイライトをスクラップボックスにまとめてくれるプログラム作りました&#34;&gt;自動でKindleのハイライトをスクラップボックスにまとめてくれるプログラム作りました。&lt;/h3&gt;
+
+&lt;p&gt;　&lt;br /&gt;
+ヘッダー画像は自動で生成されたスクラップボックスのページです。&lt;br /&gt;
+このようにハイライトと自由にメモを書く場所を作ってくれます。&lt;br /&gt;
+プログラムの詳細は &lt;a href=&#39;https://toxweblog.toxbe.com/2018/03/05/kindle-highlight-scrapbox/&#39; target=&#39;_brank&#39;&gt;ブログ&lt;/a&gt; で&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>AmbientLetter</title>
@@ -36,6 +77,54 @@
     </item>
     
     <item>
+      <title>Traxionの追実装＋パワーの増幅信号</title>
+      <link>http://toyozaki.me/project/AmplicateTraxionPower/</link>
+      <pubDate>Wed, 27 Sep 2017 11:59:17 +0900</pubDate>
+      
+      <guid>http://toyozaki.me/project/AmplicateTraxionPower/</guid>
+      <description>&lt;p&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;traxionの追実装&#34;&gt;Traxionの追実装&lt;/h3&gt;
+
+&lt;p&gt;Traxionの追実装を行いました。これだけでは別に珍しくないのでさらっと書きます。&lt;/p&gt;
+
+&lt;p&gt;Traxionを追実装するにあたっては、アルプス社のHaptic Reactorを利用します。
+これはswitchのコントローラーに入っているので取り出します。
+左の白いクッションの様なものがついているものがHaptic Reactorです。&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;http://toyozaki.me/img/post_2017-09-27/P_20170511_150220.jpg&#34; alt=&#34;Traxion&#34; /&gt;
+&lt;img src=&#34;http://toyozaki.me/img/post_2017-09-27/P_20170511_150714.jpg&#34; alt=&#34;Traxion&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;これをアンプに繋げて、矩形波を流すだけです。&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;http://toyozaki.me/img/post_2017-09-27/DSC_0097.JPG&#34; alt=&#34;Traxion&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;一秒おきに力の向きを変えて矩形波を出力。（デューティー比、2:6と6:2を交互に流す。）
+&lt;img src=&#34;http://toyozaki.me/img/post_2017-09-27/traxion.gif&#34; alt=&#34;Traxion&#34; /&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;地味にわかりづらい&#34;&gt;地味にわかりづらい&lt;/h3&gt;
+
+&lt;p&gt;やってみるとわかりますが、Traxionの力覚はだれもがわかるというほど強くはないです。
+もってみると、どっちの向きに力が働いているか集中してみないとわからなかったりします。
+左右に動かしながら持ってみると感じやすいとかはありますが、それでも微妙です。
+&lt;br&gt;&lt;/p&gt;
+
+&lt;h1 id=&#34;パワーの増幅&#34;&gt;パワーの増幅&lt;/h1&gt;
+
+&lt;p&gt;特定の信号をながすことで振動子を用いた仮想力覚が生じます。
+もともとのTraxionの論文ではデューティ比2:6の信号を125Hzでながすとありますが、今回使っている振動子はそれとは異なるため、少し変わります。
+アルプス電気のサイトによると、今回使う振動子は160Hzで強く振動するらしいです。
+&lt;img src=&#34;http://toyozaki.me/img/post_2017-09-27/figure_s1.png&#34; alt=&#34;Traxion&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;この信号を以下のようにすることで、仮想力覚のパワーが増加しました。あくまでも個人の感覚で、実験はしていないですが。
+&lt;img src=&#34;http://toyozaki.me/img/post_2017-09-27/figure_1.png&#34; alt=&#34;Traxion&#34; /&gt;
+上の画像とこの画像の意味合いの符合がとれていないので少しわかりづらいですが、
+この画像の左側と右側はTraxionの力の向きが反対であることを意味します。&lt;br&gt;
+同様に160Hzです。&lt;br&gt;
+普通の方が6:2に対して1つのパルスの右側をsin派にします。&lt;/p&gt;</description>
+    </item>
+    
+    <item>
       <title>H.265/HEVC &#43; Deep Learning</title>
       <link>http://toyozaki.me/project/H.265:HEVC&#43;Deep-Learning/</link>
       <pubDate>Sun, 09 Apr 2017 16:32:20 +0900</pubDate>
@@ -55,6 +144,21 @@
 本稿では，CNNの入力に当該PUのみを使用する手法，当該PUと隣接画素を入力とした手法，予測モードをランダムに決定した手法においてBD-Rateによる比較を行った．
 結果として，CNNを利用するイントラ予測モード決定はランダムに決定する手法と比較し，有意性があることを確かめた．
 また、隣接画素を含んだ手法は含んでいない手法より符号化効率が高いことがわかった．&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>ホームページを作成しました。</title>
+      <link>http://toyozaki.me/project/my-first-article/</link>
+      <pubDate>Sun, 09 Apr 2017 15:54:39 +0900</pubDate>
+      
+      <guid>http://toyozaki.me/project/my-first-article/</guid>
+      <description>&lt;p&gt;2017年3月に明治大学 総合数理学部 先端メディアサイエンス学科を卒業し、
+2017年4月に明治大学大学院 先端数理科学研究科 先端メディアサイエンス専攻に進学しました。
+学部では動画像符号化や画像処理の研究を行っていましたが、大学院では渡邊研究室に所属し、インタラクションの研究をしていくことになります。
+そして今後は様々な作品や研究に携わることができればと思います。&lt;/p&gt;
+
+&lt;p&gt;このホームページでもプロジェクトやポートフォリオをまとめていくサイトにするつもりです。&lt;/p&gt;
 </description>
     </item>
     

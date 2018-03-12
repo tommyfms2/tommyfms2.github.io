@@ -67,7 +67,7 @@
       // The numerical parameter specifies the time (ms) taken to scroll to the specified hash.
       $('html, body').animate({
         scrollTop: $(hash).offset().top - navbar_offset
-      }, 300);
+      }, 500);
     }
   });
 
