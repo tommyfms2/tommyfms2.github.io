@@ -39,6 +39,18 @@
     </item>
     
     <item>
+      <title>Ambientletter at UIST 2018</title>
+      <link>http://toyozaki.me/project/ambientletter-at-uist/</link>
+      <pubDate>Tue, 30 Oct 2018 17:02:24 +0900</pubDate>
+      
+      <guid>http://toyozaki.me/project/ambientletter-at-uist/</guid>
+      <description>ベルリンで開催されたUser Interface Software and Technology(UIST) 2018にてポスター発表しました．
+発表内容は国内の学会であるWISSに発表済の ambientletter ですが，論文の内容は少し変更してあります．
+　Title AmbientLetter: Letter Presentation Method for Discreet Notification of Unknown Spelling when Handwriting
+Abstract We propose a technique to support writing activity in a confi- dential manner with a pen-based device. Autocorrect and predictive conversion do not work when writing by hand, and looking up unknown spelling is sometimes embarrass- ing. Therefore, we propose AmbientLetter which seamlessly and discreetly presents the forgotten spelling to the user in scenarios where handwriting is necessary.</description>
+    </item>
+    
+    <item>
       <title>研究室共同研究制作展ウェブデザイン</title>
       <link>http://toyozaki.me/project/exhibition-page/</link>
       <pubDate>Mon, 12 Mar 2018 23:31:46 +0900</pubDate>
@@ -97,15 +109,6 @@ Abstract 動画像符号化規格HEVC/H.265の参照ソフトウェアHEVC Test 
       <guid>http://toyozaki.me/project/my-first-article/</guid>
       <description>2017年3月に明治大学 総合数理学部 先端メディアサイエンス学科を卒業し、 2017年4月に明治大学大学院 先端数理科学研究科 先端メディアサイエンス専攻に進学しました。 学部では動画像符号化や画像処理の研究を行っていましたが、大学院では渡邊研究室に所属し、インタラクションの研究をしていくことになります。 そして今後は様々な作品や研究に携わることができればと思います。
 このホームページでもプロジェクトやポートフォリオをまとめていくサイトにするつもりです。</description>
-    </item>
-    
-    <item>
-      <title></title>
-      <link>http://toyozaki.me/project/ambientletter-at-uist/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>http://toyozaki.me/project/ambientletter-at-uist/</guid>
-      <description></description>
     </item>
     
   </channel>
