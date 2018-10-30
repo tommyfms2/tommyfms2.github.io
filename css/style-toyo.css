@@ -3,7 +3,7 @@
 	padding: 10px;
 }*/
 
-/*ul.social-icon li a,
+ul.social-icon li a,
 ul.social-icon li a:hover {
   color: #6f6f6f;
   text-decoration: none;
@@ -14,54 +14,7 @@ ul.social-icon li a:hover,
 ul.social-icon li a:focus {
   color: #005181;
 }
-*/
+
 /*a.navbar-brand{
   font-family: “游ゴシック”,“arial unicode ms”;
 }*/
-
-body{
-  font-size: 0.85em;
-  background: #fafafa;
-}
-
-.navbar{
-  background: rgba(250, 250, 250, 0.9);
-  /* display: none; */
-  box-shadow: none;
-}
-
-.container{
-  /* width: 80%; */
-  /* padding-left: 75px;
-  padding-right: 75px; */
-}
-@media (min-width: 1200px) {
-  .container{
-    width: 1000px;
-  }
-}
-@media (max-width: 1200px) {
-  .container{
-    width: 85%;
-  }
-}
-@media (max-width: 768px) {
-  .container{
-    width: 90%;
-  }
-}
-
-ul.ul-interests{
-  list-style-type: none !important;
-}
-ul.ul-interests li{
-  font-size: 0.9em;
-}
-ul.ul-edu li .description p.course{
-  font-size: 0.9em !important;
-}
-.navbar-default .navbar-nav>li>a{
-  border-bottom: none;
-}
-
-/* ul-edu fa-ul */
