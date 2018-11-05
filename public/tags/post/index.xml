@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Post on Xaver Tomihiro Toyozaki</title>
+    <link>http://toyozaki.me/tags/post/</link>
+    <description>Recent content in Post on Xaver Tomihiro Toyozaki</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <copyright>&amp;copy; 2018 Xaver Tomihiro Toyozaki [All right reserved.]</copyright>
+    <lastBuildDate>Tue, 30 Oct 2018 17:02:24 +0900</lastBuildDate>
+    
+	<atom:link href="http://toyozaki.me/tags/post/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Ambientletter at UIST 2018</title>
+      <link>http://toyozaki.me/project/ambientletter-at-uist/</link>
+      <pubDate>Tue, 30 Oct 2018 17:02:24 +0900</pubDate>
+      
+      <guid>http://toyozaki.me/project/ambientletter-at-uist/</guid>
+      <description>ベルリンで開催されたUser Interface Software and Technology(UIST) 2018にてポスター発表しました．
+発表内容は国内の学会であるWISSに発表済の ambientletter ですが，論文の内容は少し変更してあります．
+　Title AmbientLetter: Letter Presentation Method for Discreet Notification of Unknown Spelling when Handwriting
+Abstract We propose a technique to support writing activity in a confi- dential manner with a pen-based device. Autocorrect and predictive conversion do not work when writing by hand, and looking up unknown spelling is sometimes embarrass- ing. Therefore, we propose AmbientLetter which seamlessly and discreetly presents the forgotten spelling to the user in scenarios where handwriting is necessary.</description>
+    </item>
+    
+    <item>
+      <title>Traxionの追実装＋パワーの増幅信号</title>
+      <link>http://toyozaki.me/project/amplicatetraxionpower/</link>
+      <pubDate>Wed, 27 Sep 2017 11:59:17 +0900</pubDate>
+      
+      <guid>http://toyozaki.me/project/amplicatetraxionpower/</guid>
+      <description>&lt;p&gt;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>ホームページを作成しました。</title>
+      <link>http://toyozaki.me/project/my-first-article/</link>
+      <pubDate>Sun, 09 Apr 2017 15:54:39 +0900</pubDate>
+      
+      <guid>http://toyozaki.me/project/my-first-article/</guid>
+      <description>2017年3月に明治大学 総合数理学部 先端メディアサイエンス学科を卒業し、 2017年4月に明治大学大学院 先端数理科学研究科 先端メディアサイエンス専攻に進学しました。 学部では動画像符号化や画像処理の研究を行っていましたが、大学院では渡邊研究室に所属し、インタラクションの研究をしていくことになります。 そして今後は様々な作品や研究に携わることができればと思います。
+このホームページでもプロジェクトやポートフォリオをまとめていくサイトにするつもりです。</description>
+    </item>
+    
+  </channel>
+</rss>

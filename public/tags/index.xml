@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tags on Xaver Tomihiro Toyozaki</title>
+    <link>http://toyozaki.me/tags/</link>
+    <description>Recent content in Tags on Xaver Tomihiro Toyozaki</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <copyright>&amp;copy; 2018 Xaver Tomihiro Toyozaki [All right reserved.]</copyright>
+    <lastBuildDate>Sun, 01 Jan 2017 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="http://toyozaki.me/tags/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Content tagged as &#39;Academic&#39;</title>
+      <link>http://toyozaki.me/tags/academic/</link>
+      <pubDate>Sun, 01 Jan 2017 00:00:00 +0000</pubDate>
+      
+      <guid>http://toyozaki.me/tags/academic/</guid>
+      <description>Here is a list of all the content that has been tagged as academic.</description>
+    </item>
+    
+    <item>
+      <title>Deep Learning</title>
+      <link>http://toyozaki.me/tags/deep-learning/</link>
+      <pubDate>Fri, 29 Dec 2017 17:00:09 +0900</pubDate>
+      
+      <guid>http://toyozaki.me/tags/deep-learning/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Demo</title>
+      <link>http://toyozaki.me/tags/demo/</link>
+      <pubDate>Mon, 12 Mar 2018 23:31:46 +0900</pubDate>
+      
+      <guid>http://toyozaki.me/tags/demo/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Post</title>
+      <link>http://toyozaki.me/tags/post/</link>
+      <pubDate>Tue, 30 Oct 2018 17:02:24 +0900</pubDate>
+      
+      <guid>http://toyozaki.me/tags/post/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Pub</title>
+      <link>http://toyozaki.me/tags/pub/</link>
+      <pubDate>Tue, 30 Oct 2018 17:02:24 +0900</pubDate>
+      
+      <guid>http://toyozaki.me/tags/pub/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Tool</title>
+      <link>http://toyozaki.me/tags/tool/</link>
+      <pubDate>Mon, 12 Mar 2018 23:18:25 +0900</pubDate>
+      
+      <guid>http://toyozaki.me/tags/tool/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

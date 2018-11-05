@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Xaver Tomihiro Toyozaki</title>
+    <link>http://toyozaki.me/</link>
+    <description>Recent content on Xaver Tomihiro Toyozaki</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <copyright>&amp;copy; 2018 Xaver Tomihiro Toyozaki [All right reserved.]</copyright>
+    <lastBuildDate>Sun, 28 Oct 2018 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="http://toyozaki.me/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title></title>
+      <link>http://toyozaki.me/home/about/</link>
+      <pubDate>Sun, 28 Oct 2018 00:00:00 +0000</pubDate>
+      
+      <guid>http://toyozaki.me/home/about/</guid>
+      <description>I am a graduate student at the Graduate School of Advanced Mathmatical Science at Meiji University. I specialize in Human Computer Interaction. I&amp;rsquo;m interested in how to deploy IoT, VR, AR, AI to our lives. To achieve the goal, there are two factors which is necessary to be solved. First one is technical problem. Second is human mind one. For example, Smartphone is technically able to access to the internet in anywhere, at anytime, and by anyone.</description>
+    </item>
+    
+    <item>
+      <title>Projects</title>
+      <link>http://toyozaki.me/home/projects/</link>
+      <pubDate>Wed, 20 Apr 2016 00:00:00 +0000</pubDate>
+      
+      <guid>http://toyozaki.me/home/projects/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Contact</title>
+      <link>http://toyozaki.me/home/contact/</link>
+      <pubDate>Wed, 20 Apr 2016 00:00:00 +0000</pubDate>
+      
+      <guid>http://toyozaki.me/home/contact/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Ambientletter at UIST 2018</title>
+      <link>http://toyozaki.me/project/ambientletter-at-uist/</link>
+      <pubDate>Tue, 30 Oct 2018 17:02:24 +0900</pubDate>
+      
+      <guid>http://toyozaki.me/project/ambientletter-at-uist/</guid>
+      <description>ベルリンで開催されたUser Interface Software and Technology(UIST) 2018にてポスター発表しました．
+発表内容は国内の学会であるWISSに発表済の ambientletter ですが，論文の内容は少し変更してあります．
+　Title AmbientLetter: Letter Presentation Method for Discreet Notification of Unknown Spelling when Handwriting
+Abstract We propose a technique to support writing activity in a confi- dential manner with a pen-based device. Autocorrect and predictive conversion do not work when writing by hand, and looking up unknown spelling is sometimes embarrass- ing. Therefore, we propose AmbientLetter which seamlessly and discreetly presents the forgotten spelling to the user in scenarios where handwriting is necessary.</description>
+    </item>
+    
+    <item>
+      <title>研究室共同研究制作展ウェブデザイン</title>
+      <link>http://toyozaki.me/project/exhibition-page/</link>
+      <pubDate>Mon, 12 Mar 2018 23:31:46 +0900</pubDate>
+      
+      <guid>http://toyozaki.me/project/exhibition-page/</guid>
+      <description>Keita-lab Exhibition. 2018.3.15-2018.3.17にかけて研究室の展示会があり、その ウェブサイト のデザインを担当しました。</description>
+    </item>
+    
+    <item>
+      <title>Kindle のハイライトを自動で Scrapbox にまとめる</title>
+      <link>http://toyozaki.me/project/kindlehl2scb/</link>
+      <pubDate>Mon, 12 Mar 2018 23:18:25 +0900</pubDate>
+      
+      <guid>http://toyozaki.me/project/kindlehl2scb/</guid>
+      <description>Kindleのメモ使ってますか 　便利ですよね。
+でもメモしたもの簡単に見づらいですよね。
+あと、メモしたことに関して思ったこと書いたりしたいですよね。 自動でKindleのハイライトをスクラップボックスにまとめてくれるプログラム作りました。 　ヘッダー画像は自動で生成されたスクラップボックスのページです。
+このようにハイライトと自由にメモを書く場所を作ってくれます。
+プログラムの詳細は ブログ で</description>
+    </item>
+    
+    <item>
+      <title>AmbientLetter</title>
+      <link>http://toyozaki.me/project/ambientletter/</link>
+      <pubDate>Fri, 29 Dec 2017 17:00:09 +0900</pubDate>
+      
+      <guid>http://toyozaki.me/project/ambientletter/</guid>
+      <description>AmbientLetter：わからないスペルをこっそり知るための文字認識及び文字提示手法 という題目で、インタラクティブシステムとソフトウェアに関するワークショップ（WISS）でデモ発表をしました。
+Abstract コンピュータ上では入力した文字のスペルミスの指摘や修正が可能である．しかし，会議や 講義などの場面で鉛筆やチョーク等を利用する場合にはそのような機能を利用できない．そこで，本 研究では，直筆が必要な場面において，忘れてしまったスペルをシームレスにこっそりとユーザ本人 にのみ提示するシステムである AmbientLetter を提案する．本システムはペンに装着した 9 軸加速度 センサを用いた文字認識部，執筆内容から次の文字を予測する提示文字予測部，環境にカモフラージ ュし次の文字を提示する文字提示部の 3 つの要素で構成される．文字認識部のシステム評価の結果， 86.5%で筆記された文字を正しく認識できた．</description>
+    </item>
+    
+    <item>
+      <title>Traxionの追実装＋パワーの増幅信号</title>
+      <link>http://toyozaki.me/project/amplicatetraxionpower/</link>
+      <pubDate>Wed, 27 Sep 2017 11:59:17 +0900</pubDate>
+      
+      <guid>http://toyozaki.me/project/amplicatetraxionpower/</guid>
+      <description>&lt;p&gt;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>H.265/HEVC &#43; Deep Learning</title>
+      <link>http://toyozaki.me/project/h.265hevc&#43;deep-learning/</link>
+      <pubDate>Sun, 09 Apr 2017 16:32:20 +0900</pubDate>
+      
+      <guid>http://toyozaki.me/project/h.265hevc&#43;deep-learning/</guid>
+      <description>深層学習を用いたHEVCイントラ予測モード決定手法の検討 という題目で電子情報通信学会の総合大会2017（名城大学）で発表してきました。 同時に卒業研究でもあります。
+Abstract 動画像符号化規格HEVC/H.265の参照ソフトウェアHEVC Test Modelでは，RD最適化を行うことで最適な予測モードを決定している．しかし，RD最適化は計算量が多くエンコードには時間がかかる． そこで，35モードあるイントラ予測モード決定に深層学習を用いることを検討した。 本稿では，CNNの入力に当該PUのみを使用する手法，当該PUと隣接画素を入力とした手法，予測モードをランダムに決定した手法においてBD-Rateによる比較を行った． 結果として，CNNを利用するイントラ予測モード決定はランダムに決定する手法と比較し，有意性があることを確かめた． また、隣接画素を含んだ手法は含んでいない手法より符号化効率が高いことがわかった．</description>
+    </item>
+    
+    <item>
+      <title>ホームページを作成しました。</title>
+      <link>http://toyozaki.me/project/my-first-article/</link>
+      <pubDate>Sun, 09 Apr 2017 15:54:39 +0900</pubDate>
+      
+      <guid>http://toyozaki.me/project/my-first-article/</guid>
+      <description>2017年3月に明治大学 総合数理学部 先端メディアサイエンス学科を卒業し、 2017年4月に明治大学大学院 先端数理科学研究科 先端メディアサイエンス専攻に進学しました。 学部では動画像符号化や画像処理の研究を行っていましたが、大学院では渡邊研究室に所属し、インタラクションの研究をしていくことになります。 そして今後は様々な作品や研究に携わることができればと思います。
+このホームページでもプロジェクトやポートフォリオをまとめていくサイトにするつもりです。</description>
+    </item>
+    
+  </channel>
+</rss>

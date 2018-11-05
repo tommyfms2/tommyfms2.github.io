@@ -1,0 +1,85 @@
+{{ partial "header.html" . }}
+{{ partial "navbar.html" . }}
+
+<article class="article article-project" itemscope itemtype="http://schema.org/Article">
+
+  {{ if .Params.header.image }}
+  <div class="article-header">
+    <img src="{{ "/img/" | relURL }}/{{ .Params.header.image }}" class="article-banner" itemprop="image">
+    {{ with .Params.header.caption }}<span class="article-header-caption">{{ . | markdownify | emojify }}</span>{{ end }}
+  </div>
+  {{end}}
+
+  <div class="article-container">
+
+    <div class="pub-title">
+      <h1 itemprop="name">{{ .Title }}</h1>
+      <span class="pub-authors" itemprop="author">&nbsp;</span>
+      <span class="pull-right">
+        {{ partial "share.html" . }}
+      </span>
+    </div>
+
+    {{ with .Params.external_link }}
+    <a class="btn btn-primary btn-outline" href="{{ . }}" target="_blank">{{ i18n "open_project_site" }}</a>
+    {{ end }}
+
+    <div class="article-style" itemprop="articleBody">
+      {{ .Content }}
+    </div>
+
+  </div>
+</article>
+
+<div class="article-container">
+  <!-- {{ partial "section_pager.html" . }} -->
+  {{ if .Params.publication }}
+  <div class="row">
+    <div class="col-sm-1"></div>
+    <div class="col-sm-10">
+      <div class="row">
+        <div class="col-xs-12 col-sm-3 pub-row-heading">Publication</div>
+        <div class="col-xs-12 col-sm-9">{{ .Params.publication | markdownify }}</div>
+      </div>
+    </div>
+    <div class="col-sm-1"></div>
+  </div>
+  <div class="visible-xs space-below"></div>
+  {{ end }}
+
+  {{ if .Params.pub_date }}
+  <div class="row">
+    <div class="col-sm-1"></div>
+    <div class="col-sm-10">
+      <div class="row">
+        <div class="col-xs-12 col-sm-3 pub-row-heading">Date</div>
+        <div class="col-xs-12 col-sm-9" itemprop="datePublished">
+          <!-- {{ .Date.Format "January, 2006" }} -->
+          {{ .Params.pub_date }}
+        </div>
+      </div>
+    </div>
+    <div class="col-sm-1"></div>
+  </div>
+  <div class="visible-xs space-below"></div>
+  {{ end }}
+
+  {{ if .Params.uselinks }}
+  <div class="row" style="padding-top: 10px">
+    <div class="col-sm-1"></div>
+    <div class="col-sm-10">
+      <div class="row">
+        <div class="col-xs-12 col-sm-3 pub-row-heading" style="line-height:34px;">Links</div>
+        <div class="col-xs-12 col-sm-9">
+          {{ partial "publication_links" (dict "content" . "is_list" 0) }}
+        </div>
+      </div>
+    </div>
+    <div class="col-sm-1"></div>
+  </div>
+  {{ end }}
+</div>
+
+
+{{ partial "footer_container.html" . }}
+{{ partial "footer.html" . }}

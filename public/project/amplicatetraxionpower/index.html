@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="theme" content="tommyacademic">
+
+    <meta name="generator" content="Hugo 0.50" />
+    <meta name="author" content="Xaver Tomihiro Toyozaki">
+    
+
+    <link rel="stylesheet" href="/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/css/font-awesome.min.css">
+
+    <link rel="stylesheet" href="/css/tommy-academic.css">
+    
+
+    
+
+    <link rel="icon" type="image/png" href="/img/icon.png">
+    <link rel="apple-touch-icon" type="image/png" href="/img/apple-touch-icon.png">
+
+    <title>Traxionの追実装＋パワーの増幅信号 | Xaver Tomihiro Toyozaki</title>
+
+</head>
+<body id="top">
+
+
+<nav class="navbar navbar-default navbar-fixed-top" id="navbar-main">
+    <div class="container">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target='.navbar-collapse' aria-expanded="false">
+                <span class="sr-only"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="/">Xaver Tomihiro Toyozaki</a>
+        </div>
+
+        <div class="collapse navbar-collapse">
+            <ul class="nav navbar-nav navbar-right">
+                
+                
+                <li class="nav-item">
+                    <a href="/#about">
+                        
+                        <span>Home</span>
+                    </a>
+                </li>
+                
+                
+                
+                <li class="nav-item">
+                    <a href="/#projects">
+                        
+                        <span>Projects</span>
+                    </a>
+                </li>
+                
+                
+                
+                <li class="nav-item">
+                    <a href="/#contact">
+                        
+                        <span>Contact</span>
+                    </a>
+                </li>
+                
+                
+
+            </ul>
+        </div>
+    </div>
+</nav>
+
+<article class="article article-project" itemscope itemtype="http://schema.org/Article">
+
+  
+  <div class="article-header">
+    <img src="/img//headers/2017-09-27_switch2.JPG" class="article-banner" itemprop="image">
+    <span class="article-header-caption">haptic reactor in switch controller</span>
+  </div>
+  
+
+  <div class="article-container">
+
+    <div class="pub-title">
+      <h1 itemprop="name">Traxionの追実装＋パワーの増幅信号</h1>
+      <span class="pub-authors" itemprop="author">&nbsp;</span>
+      <span class="pull-right">
+        
+
+      </span>
+    </div>
+
+    
+
+    <div class="article-style" itemprop="articleBody">
+      <p></p>
+
+<h3 id="traxionの追実装">Traxionの追実装</h3>
+
+<p>Traxionの追実装を行いました。これだけでは別に珍しくないのでさらっと書きます。</p>
+
+<p>Traxionを追実装するにあたっては、アルプス社のHaptic Reactorを利用します。
+これはswitchのコントローラーに入っているので取り出します。
+左の白いクッションの様なものがついているものがHaptic Reactorです。</p>
+
+<p><img src="/img/post_2017-09-27/P_20170511_150220.jpg" alt="Traxion" />
+<img src="/img/post_2017-09-27/P_20170511_150714.jpg" alt="Traxion" /></p>
+
+<p>これをアンプに繋げて、矩形波を流すだけです。</p>
+
+<p><img src="/img/post_2017-09-27/DSC_0097.JPG" alt="Traxion" /></p>
+
+<p>一秒おきに力の向きを変えて矩形波を出力。（デューティー比、2:6と6:2を交互に流す。）
+<img src="/img/post_2017-09-27/traxion.gif" alt="Traxion" /></p>
+
+<h3 id="地味にわかりづらい">地味にわかりづらい</h3>
+
+<p>やってみるとわかりますが、Traxionの力覚はだれもがわかるというほど強くはないです。
+もってみると、どっちの向きに力が働いているか集中してみないとわからなかったりします。
+左右に動かしながら持ってみると感じやすいとかはありますが、それでも微妙です。
+<br></p>
+
+<h1 id="パワーの増幅">パワーの増幅</h1>
+
+<p>特定の信号をながすことで振動子を用いた仮想力覚が生じます。
+もともとのTraxionの論文ではデューティ比2:6の信号を125Hzでながすとありますが、今回使っている振動子はそれとは異なるため、少し変わります。
+アルプス電気のサイトによると、今回使う振動子は160Hzで強く振動するらしいです。
+<img src="/img/post_2017-09-27/figure_s1.png" alt="Traxion" /></p>
+
+<p>この信号を以下のようにすることで、仮想力覚のパワーが増加しました。あくまでも個人の感覚で、実験はしていないですが。
+<img src="/img/post_2017-09-27/figure_1.png" alt="Traxion" />
+上の画像とこの画像の意味合いの符合がとれていないので少しわかりづらいですが、
+この画像の左側と右側はTraxionの力の向きが反対であることを意味します。<br>
+同様に160Hzです。<br>
+普通の方が6:2に対して1つのパルスの右側をsin派にします。</p>
+    </div>
+
+  </div>
+</article>
+
+<div class="article-container">
+  
+  
+
+  
+
+  
+</div>
+
+
+
+<footer class="site-footer">
+    <div class="container">
+        <p class="powered-by">
+            &copy; 2018 Xaver Tomihiro Toyozaki [All right reserved.] &middot; 
+        </p>
+    </div>
+</footer>
+
+    <script src="//cdnjs.cloudflare.com/ajax/libs/gsap/1.18.4/TweenMax.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/gsap/latest/plugins/ScrollToPlugin.min.js"></script>
+    <script src="/js/jquery-1.12.3.min.js"></script>
+    <script src="/js/bootstrap.min.js"></script>
+    <script src="/js/isotope.pkgd.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery.imagesloaded/4.1.1/imagesloaded.pkgd.min.js"></script>
+    <script src="/js/tommy-academic.js"></script>
+    
+
+
+    </body>
+</html>

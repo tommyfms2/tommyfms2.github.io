@@ -1,0 +1,47 @@
+baseurl = "http://toyozaki.me"
+title = "Xaver Tomihiro Toyozaki"
+copyright = "&copy; 2018 Xaver Tomihiro Toyozaki [All right reserved.]"
+theme = "tommyacademic"
+
+defaultContentLanguage = "en"
+
+[params]
+    name = "Xaver Tomihiro Toyozaki"
+    organization = "Graduate School of Advanced Mathematical Sciences, Meiji University"
+    avatar = "portrait.jpg"
+    email = "cs172031 at meiji.ac.jp"
+
+    [[params.social]]
+    icon = "envelope"
+    icon_pack = "fa"
+    link = "mailto:cs172031@meiji.ac.jp"
+
+    [[params.social]]
+    icon = "twitter"
+    icon_pack = "fa"
+    link = "//twitter.com/tommy_fms2"
+
+    [[params.social]]
+    icon = "github"
+    icon_pack = "fa"
+    link = "//github.com/tommyfms2"
+
+    [[params.social]]
+    icon = "feed"
+    icon_pack = "fa"
+    link = "http://toxweblog.toxbe.com/"
+
+[[menu.main]]
+  name = "Home"
+  url = "#about"
+  weight = 1
+
+[[menu.main]]
+  name = "Projects"
+  url = "#projects"
+  weight = 2
+
+[[menu.main]]
+  name = "Contact"
+  url = "#contact"
+  weight = 3

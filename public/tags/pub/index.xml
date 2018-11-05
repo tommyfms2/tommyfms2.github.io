@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Pub on Xaver Tomihiro Toyozaki</title>
+    <link>http://toyozaki.me/tags/pub/</link>
+    <description>Recent content in Pub on Xaver Tomihiro Toyozaki</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <copyright>&amp;copy; 2018 Xaver Tomihiro Toyozaki [All right reserved.]</copyright>
+    <lastBuildDate>Tue, 30 Oct 2018 17:02:24 +0900</lastBuildDate>
+    
+	<atom:link href="http://toyozaki.me/tags/pub/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Ambientletter at UIST 2018</title>
+      <link>http://toyozaki.me/project/ambientletter-at-uist/</link>
+      <pubDate>Tue, 30 Oct 2018 17:02:24 +0900</pubDate>
+      
+      <guid>http://toyozaki.me/project/ambientletter-at-uist/</guid>
+      <description>ベルリンで開催されたUser Interface Software and Technology(UIST) 2018にてポスター発表しました．
+発表内容は国内の学会であるWISSに発表済の ambientletter ですが，論文の内容は少し変更してあります．
+　Title AmbientLetter: Letter Presentation Method for Discreet Notification of Unknown Spelling when Handwriting
+Abstract We propose a technique to support writing activity in a confi- dential manner with a pen-based device. Autocorrect and predictive conversion do not work when writing by hand, and looking up unknown spelling is sometimes embarrass- ing. Therefore, we propose AmbientLetter which seamlessly and discreetly presents the forgotten spelling to the user in scenarios where handwriting is necessary.</description>
+    </item>
+    
+    <item>
+      <title>AmbientLetter</title>
+      <link>http://toyozaki.me/project/ambientletter/</link>
+      <pubDate>Fri, 29 Dec 2017 17:00:09 +0900</pubDate>
+      
+      <guid>http://toyozaki.me/project/ambientletter/</guid>
+      <description>AmbientLetter：わからないスペルをこっそり知るための文字認識及び文字提示手法 という題目で、インタラクティブシステムとソフトウェアに関するワークショップ（WISS）でデモ発表をしました。
+Abstract コンピュータ上では入力した文字のスペルミスの指摘や修正が可能である．しかし，会議や 講義などの場面で鉛筆やチョーク等を利用する場合にはそのような機能を利用できない．そこで，本 研究では，直筆が必要な場面において，忘れてしまったスペルをシームレスにこっそりとユーザ本人 にのみ提示するシステムである AmbientLetter を提案する．本システムはペンに装着した 9 軸加速度 センサを用いた文字認識部，執筆内容から次の文字を予測する提示文字予測部，環境にカモフラージ ュし次の文字を提示する文字提示部の 3 つの要素で構成される．文字認識部のシステム評価の結果， 86.5%で筆記された文字を正しく認識できた．</description>
+    </item>
+    
+    <item>
+      <title>H.265/HEVC &#43; Deep Learning</title>
+      <link>http://toyozaki.me/project/h.265hevc&#43;deep-learning/</link>
+      <pubDate>Sun, 09 Apr 2017 16:32:20 +0900</pubDate>
+      
+      <guid>http://toyozaki.me/project/h.265hevc&#43;deep-learning/</guid>
+      <description>深層学習を用いたHEVCイントラ予測モード決定手法の検討 という題目で電子情報通信学会の総合大会2017（名城大学）で発表してきました。 同時に卒業研究でもあります。
+Abstract 動画像符号化規格HEVC/H.265の参照ソフトウェアHEVC Test Modelでは，RD最適化を行うことで最適な予測モードを決定している．しかし，RD最適化は計算量が多くエンコードには時間がかかる． そこで，35モードあるイントラ予測モード決定に深層学習を用いることを検討した。 本稿では，CNNの入力に当該PUのみを使用する手法，当該PUと隣接画素を入力とした手法，予測モードをランダムに決定した手法においてBD-Rateによる比較を行った． 結果として，CNNを利用するイントラ予測モード決定はランダムに決定する手法と比較し，有意性があることを確かめた． また、隣接画素を含んだ手法は含んでいない手法より符号化効率が高いことがわかった．</description>
+    </item>
+    
+  </channel>
+</rss>
