@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Picture on Xaver Tomihiro Toyozaki</title>
+    <link>http://toyozaki.me/tags/picture/</link>
+    <description>Recent content in Picture on Xaver Tomihiro Toyozaki</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <copyright>&amp;copy; 2018 Xaver Tomihiro Toyozaki [All right reserved.]</copyright>
+    <lastBuildDate>Sun, 16 Jun 2019 11:54:02 +0900</lastBuildDate>
+    
+	<atom:link href="http://toyozaki.me/tags/picture/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>眼</title>
+      <link>http://toyozaki.me/project/eye-practice/</link>
+      <pubDate>Sun, 16 Jun 2019 11:54:02 +0900</pubDate>
+      
+      <guid>http://toyozaki.me/project/eye-practice/</guid>
+      <description>練習</description>
+    </item>
+    
+    <item>
+      <title>戦闘機</title>
+      <link>http://toyozaki.me/project/airplane-picture/</link>
+      <pubDate>Mon, 31 Dec 2018 11:31:29 +0900</pubDate>
+      
+      <guid>http://toyozaki.me/project/airplane-picture/</guid>
+      <description>練習</description>
+    </item>
+    
+    <item>
+      <title>迷子猫</title>
+      <link>http://toyozaki.me/project/lost-cat/</link>
+      <pubDate>Fri, 28 Sep 2018 11:44:09 +0900</pubDate>
+      
+      <guid>http://toyozaki.me/project/lost-cat/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

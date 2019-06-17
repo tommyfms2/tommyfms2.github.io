@@ -30,12 +30,39 @@
     </item>
     
     <item>
+      <title>気まぐれスナップ＃1</title>
+      <link>http://toyozaki.me/project/whimsical-snap/</link>
+      <pubDate>Mon, 17 Jun 2019 22:43:40 +0900</pubDate>
+      
+      <guid>http://toyozaki.me/project/whimsical-snap/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>眼</title>
+      <link>http://toyozaki.me/project/eye-practice/</link>
+      <pubDate>Sun, 16 Jun 2019 11:54:02 +0900</pubDate>
+      
+      <guid>http://toyozaki.me/project/eye-practice/</guid>
+      <description>練習</description>
+    </item>
+    
+    <item>
       <title>研究室展示会「インターネット中心設計」ウェブデザイン</title>
       <link>http://toyozaki.me/project/exhibition-page-2018/</link>
       <pubDate>Sat, 15 Jun 2019 09:46:57 +0900</pubDate>
       
       <guid>http://toyozaki.me/project/exhibition-page-2018/</guid>
       <description>Keita-lab Exhibition. 2019.3.8-2019.3.9にかけて研究室の展示会があり、その ウェブサイト のデザインを担当しました。</description>
+    </item>
+    
+    <item>
+      <title>戦闘機</title>
+      <link>http://toyozaki.me/project/airplane-picture/</link>
+      <pubDate>Mon, 31 Dec 2018 11:31:29 +0900</pubDate>
+      
+      <guid>http://toyozaki.me/project/airplane-picture/</guid>
+      <description>練習</description>
     </item>
     
     <item>
@@ -48,6 +75,15 @@
 発表内容は国内の学会であるWISSに発表済の ambientletter ですが，論文の内容は少し変更してあります．
 　Title AmbientLetter: Letter Presentation Method for Discreet Notification of Unknown Spelling when Handwriting
 Abstract We propose a technique to support writing activity in a confi- dential manner with a pen-based device. Autocorrect and predictive conversion do not work when writing by hand, and looking up unknown spelling is sometimes embarrass- ing. Therefore, we propose AmbientLetter which seamlessly and discreetly presents the forgotten spelling to the user in scenarios where handwriting is necessary.</description>
+    </item>
+    
+    <item>
+      <title>迷子猫</title>
+      <link>http://toyozaki.me/project/lost-cat/</link>
+      <pubDate>Fri, 28 Sep 2018 11:44:09 +0900</pubDate>
+      
+      <guid>http://toyozaki.me/project/lost-cat/</guid>
+      <description></description>
     </item>
     
     <item>
